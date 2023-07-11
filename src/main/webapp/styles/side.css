@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.side-bar{
+	position: fixed;
+	top:55px;
+	bottom:0px;
+	left:0px;
+	width:72px;
+	background-color: white;
+	z-index:200;
+	padding-top: 5px;
+	
+}
+
+.side-link{
+	
+	height:74px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	
+}
+.side-link:hover{
+	background-color: rgb(235,235,235);
+}
+.side-link img{
+	height: 24px;
+	margin-bottom:4px;
+}
+
+	
+.side-link div {
+  font-size: 10px;
+  
+}
